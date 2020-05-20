@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+    <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -33,6 +34,13 @@
 	    <groupId>com.squareup.okhttp3</groupId>
 	    <artifactId>okhttp</artifactId>
 	    <version>4.5.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/mockwebserver -->
+	<dependency>
+	    <groupId>com.squareup.okhttp3</groupId>
+	    <artifactId>mockwebserver</artifactId>
+	    <version>4.5.0</version>
+	    <scope>test</scope>
 	</dependency>
     <dependency>
       <groupId>junit</groupId>
